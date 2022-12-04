@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react'
 import BlogList from './BlogList';
 import UseFetch from './useFetch';
 
@@ -7,8 +6,8 @@ const Home = () => {
 
   return (
     <div className='home'>
-      { error && <div>{ error }</div> }
-      { isPending && <div>Loading...</div> }
+      {error && <div>{error}</div>}
+      {isPending && <div>Loading...</div>}
       {blogs && <BlogList blogs={blogs} title='All Blogs!' />}
       {/* {blogs && <BlogList blogs={blogs.filter((blog) => blog.author === 'milly' )} title="Milly's blogs"/>} */}
     </div>
