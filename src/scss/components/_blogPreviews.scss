@@ -1,0 +1,17 @@
+.blog-preview {
+      padding: 10px 16px;
+      margin: 20px 0;
+      border-bottom: 1px solid $offWhite;
+    
+    &:hover {
+      box-shadow: 1px 3px 5px $shadowColor;
+    }
+     h2 {
+      font-size: 20px;
+      color: $green;
+      margin-bottom: 8px;
+    }
+   a {
+      text-decoration: none;
+    }
+}

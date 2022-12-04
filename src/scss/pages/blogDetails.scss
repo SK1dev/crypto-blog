@@ -1,0 +1,18 @@
+.blog-details h2 {
+    font-size: 20px;
+    color: $green;
+    margin-bottom: 10px;
+}
+
+.blog-details div {
+    margin: 20px 0;
+}
+
+.blog-details button {
+    background: $green;
+    color: $white;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
